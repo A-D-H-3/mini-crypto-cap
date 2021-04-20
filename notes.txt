@@ -1,0 +1,10 @@
+#CoinMarketCap Postman
+
+Paste https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=5000&convert=USD into the url
+
+#Under Headers tab 
+For 1st "Key" field paste/type: X-CMC_PRO_API_KEY
+For 1st "Value" field paste/type: your API Key
+
+For 2nd "Key" field  paste/type: Accept
+For 2nd "Value" field paste/type: application/json
