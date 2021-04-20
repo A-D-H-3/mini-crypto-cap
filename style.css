@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(btc3.jpeg);
+    background-size: cover;
+}
+
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%
+}
+
+li, a, button{
+font-family: "Montserrat", sans-serif;
+color: white;
+}
+
+.nav-links{
+list-style: none;
+}
+
+.text-container h1{
+    text-align: center;
+    display: flex;
+    color: white;
+    border: 2px solid red
+}
+
+button{
+    border-radius: 50px;
+    background-color: rgb(36, 151, 167);
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(36, 151, 167, 0.6);
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding:0 20px
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#search-field-container{
+    border: 2px solid clear;
+    width: 300px;
+    border-radius: 15px;
+    overflow:hidden;}
+
+main input{
+display: flex;
+width: 100%;
+max-width: 300px;
+padding: 10px 15px;
+border: none;
+border-radius: 15px;
+}
+
