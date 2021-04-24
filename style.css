@@ -8,10 +8,17 @@
 
 body {
   background-image: url(assets/btc.jpeg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
+/* .bg-container {
+  background-image: url(assets/btc.jpeg);
+  background-image: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+} */
 
 header {
   display: flex;
@@ -80,4 +87,8 @@ main input {
 .container {
   border: 2px solid;
   text-align: center;
+}
+
+.news {
+  color: white;
 }
