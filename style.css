@@ -24,8 +24,7 @@ header {
 }
 
 li,
-a,
-button {
+a {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -47,6 +46,8 @@ button {
   padding: 12px 15px;
   border: none;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 button:hover {
