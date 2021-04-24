@@ -16,7 +16,7 @@ header{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 20px 10%
+padding: 20px 10%;
 }
 
 li, a, button{
@@ -26,10 +26,6 @@ color: white;
 
 .nav-links{
 list-style: none;
-}
-
-.text-container h1{
-    text-align: center;
 }
 
 button{
@@ -47,30 +43,18 @@ button:hover{
 }
 
 .nav-links li{
+    padding: 0 20px;
     display: inline-block;
-    padding:0 20px
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    border: solid 3px purple;
+/* .wrapper{
+    display: flex; */
+}
+.profilebox{
+    width: 200px
+    border: 1.5px solid red;
 }
 
-#search-field-container{
-    border: 2px solid clear;
-    width: 300px;
-    border-radius: 15px;
-    overflow:hidden;}
-
-main input{
-display: flex;
-width: 100%;
-max-width: 800px;
-padding: 10px 15px;
-border: none;
-border-radius: 15px;
+.imgcontainer{
+    width: 200px;
 }
-
-
