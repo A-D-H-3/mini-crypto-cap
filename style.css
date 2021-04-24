@@ -6,19 +6,15 @@
   padding: 0;
 }
 
-body {
-  background-image: url(assets/btc.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+html {
+  height: 100%;
 }
 
-/* .bg-container {
+body {
   background-image: url(assets/btc.jpeg);
-  background-image: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height: 100vh;
-} */
+}
 
 header {
   display: flex;
