@@ -47,14 +47,12 @@ button:hover{
     display: inline-block;
 }
 
-/* .wrapper{
-    display: flex; */
-}
 .profilebox{
-    width: 200px
+    width: 200px;
     border: 1.5px solid red;
 }
 
 .imgcontainer{
     width: 200px;
 }
+

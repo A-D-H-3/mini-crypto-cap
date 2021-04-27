@@ -6,15 +6,16 @@
   padding: 0;
 }
 
-html {
-  height: 100%;
+body{
+    background-image: url(/assets/btc.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    background-color:#464646;
+    height: 100%;
 }
 
-body {
-  background-image: url(assets/btc.jpeg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
 
 header {
   display: flex;
@@ -55,22 +56,17 @@ button:hover {
   transition: all 0.3s ease 0s;
 }
 
-.nav-links li {
-  display: inline-block;
-  padding: 0 20px;
-}
-main {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
 
-#search-field-container {
-  border: 2px solid clear;
-  width: 300px;
-  border-radius: 15px;
-  overflow: hidden;
-}
+#search-field-container{
+    border: 2px solid clear;
+    width: 15rem;
+    border-radius: 15px;
+    overflow:hidden;}
 
 main input {
   display: flex;
