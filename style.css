@@ -16,7 +16,6 @@ body {
   height: 100%;
 }
 
-<<<<<<< HEAD
 
 header{
 display: flex;
@@ -24,13 +23,6 @@ justify-content: space-between;
 align-items: center;
 padding: 20px 10%;
 background-color: goldenrod;
-=======
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
->>>>>>> main
 }
 
 li, a, button{
@@ -71,23 +63,13 @@ main {
   justify-content: center;
   padding-top: 100px;
 }
-
-<<<<<<< HEAD
-#search-field-container{
-    display: flex;
-    border: 2px solid clear;
-    width: 5rem;
-    border-radius: 15px;
-    overflow:hidden;}
     
-=======
 #search-field-container {
   border: 2px solid clear;
   width: 15rem;
   border-radius: 15px;
   overflow: hidden;
 }
->>>>>>> main
 
 main input{
 display: flex;

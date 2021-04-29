@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 body{
     background-image: url(/assets/btc.jpeg);
     background-position: center center;
@@ -15,11 +14,6 @@ body{
     background-size: cover;  
     background-color:#464646;
     height: 100%;
-=======
-body {
-  background-image: url(/assets/btc.jpeg);
-  background-size: cover;
->>>>>>> main
 }
 
 header {
@@ -58,10 +52,6 @@ button:hover {
   display: inline-block;
 }
 
-<<<<<<< HEAD
-
-
-=======
 .profilebox {
   width: 200px;
   border: 1.5px solid red;
@@ -70,4 +60,3 @@ button:hover {
 .imgcontainer {
   width: 200px;
 }
->>>>>>> main
