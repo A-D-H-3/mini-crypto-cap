@@ -1,0 +1,45 @@
+h1,
+h2 {
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  font-family: Open sans Condensed, sans-serif;
+}
+
+.header {
+  background-color: skyblue;
+  height: 100px;
+  text-align: center;
+  padding: 1px;
+}
+
+.crip-flexbox {
+  display: flex;
+}
+
+.container div {
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+.left-col,
+.right-col {
+  background-color: #f4f4f4;
+  width: 33%;
+}
+
+.center-col {
+  background-color: pink;
+  width: 33%;
+}
+
+.footer {
+  clear: both;
+  font-family: Amatica SC, cursive;
+  background-color: skyblue;
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}

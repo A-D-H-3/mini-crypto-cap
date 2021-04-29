@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
@@ -16,43 +16,46 @@ body {
   height: 100%;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%;
+background-color: goldenrod;
 }
 
-li,
-a {
-  font-family: "Montserrat", sans-serif;
-  color: white;
+li, a, button{
+font-family: "Montserrat", sans-serif;
+color: white;
 }
 
-.nav-links {
-  list-style: none;
+.nav-links{
+list-style: none;
 }
 
-.text-container h1 {
-  text-align: center;
-  display: flex;
-  color: white;
-  border: 2px solid red;
+.text-container h1{
+    text-align: center;
 }
 
-button {
-  border-radius: 50px;
-  background-color: rgb(36, 151, 167);
-  padding: 12px 15px;
-  border: none;
-  cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-  color: white;
+button{
+    border-radius: 50px;
+    background-color: rgb(36, 151, 167);
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
 }
 
-button:hover {
-  background-color: rgba(36, 151, 167, 0.6);
-  transition: all 0.3s ease 0s;
+button:hover{
+    background-color: rgba(36, 151, 167, 0.6);
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding:0 20px;
+    
 }
 
 main {
@@ -60,7 +63,7 @@ main {
   justify-content: center;
   padding-top: 100px;
 }
-
+    
 #search-field-container {
   border: 2px solid clear;
   width: 15rem;
@@ -68,20 +71,13 @@ main {
   overflow: hidden;
 }
 
-main input {
-  display: flex;
-  width: 100%;
-  max-width: 300px;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 15px;
+main input{
+display: flex;
+width: 100%;
+max-width: 800px;
+padding: 10px 15px;
+border: none;
+border-radius: 15px;
 }
 
-.container {
-  border: 2px solid;
-  text-align: center;
-}
 
-.news {
-  color: white;
-}
