@@ -6,16 +6,17 @@
     padding:0;
 }
 
-body{
-    background-image: url(/assets/btc.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;  
-    background-color:#464646;
-    height: 100%;
+body {
+  background-image: url(/assets/btc.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
 }
 
+<<<<<<< HEAD
 
 header{
 display: flex;
@@ -23,6 +24,13 @@ justify-content: space-between;
 align-items: center;
 padding: 20px 10%;
 background-color: goldenrod;
+=======
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+>>>>>>> main
 }
 
 li, a, button{
@@ -58,12 +66,13 @@ button:hover{
     
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
+<<<<<<< HEAD
 #search-field-container{
     display: flex;
     border: 2px solid clear;
@@ -71,6 +80,14 @@ main{
     border-radius: 15px;
     overflow:hidden;}
     
+=======
+#search-field-container {
+  border: 2px solid clear;
+  width: 15rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+>>>>>>> main
 
 main input{
 display: flex;
