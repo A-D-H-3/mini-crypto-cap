@@ -16,9 +16,9 @@
     <header>
       <navbar>
         <ul class="nav-links">
-          <li><a href="#">Home</li></a>
-          <li><a href="#">About</li></a>
-          <li><a href="#">News</li></a>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
         </ul>
       </navbar>
       <a href=""><button>Contact</button></a>
@@ -29,13 +29,16 @@
           <h1>Crypto Cap</h1>
         </div>
         <div id="search-field-container" class="col">
-          <input
-            type="text"
-            autocomplete="off"
-            id="search-field"
-            placeholder="Search coin..."
-          />
-          <div id="cryptoMarket">Crypto</div>
+          <form id="searchCrypto">
+            <input
+              type="text"
+              autocomplete="on"
+              id="search-field"
+              placeholder="Search coin..."
+            />
+            <button type="submit">Search</button>
+          </form>
+
           <!-- <ol class="list-group list-group-numbered">
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
@@ -59,11 +62,14 @@
               <span class="badge bg-primary rounded-pill">14</span>
             </li>
           </ol> -->
-
         </div>
-        <!-- <div class="col-6" id="data-results">Display crypto data</div> --> 
-        <script src="./index.js"></script>
+
+        <!-- <div class="col-6" id="data-results">Display crypto data</div> -->
       </div>
     </main>
+
+    <div id="cryptoMarket">Crypto</div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
