@@ -6,26 +6,27 @@
   padding: 0;
 }
 
-body{
-    background-image: url(/assets/btc.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;  
-    background-color:#464646;
-    height: 100%;
+body {
+  background-image: url(./assets/btc.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
 }
-
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
+  background-color: goldenrod;
 }
 
 li,
-a {
+a,
+button {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -36,19 +37,14 @@ a {
 
 .text-container h1 {
   text-align: center;
-  display: flex;
-  color: white;
-  border: 2px solid red;
 }
 
 button {
   border-radius: 50px;
   background-color: rgb(36, 151, 167);
-  padding: 12px 15px;
+  padding: 8px 15px;
   border: none;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-  color: white;
 }
 
 button:hover {
@@ -56,32 +52,29 @@ button:hover {
   transition: all 0.3s ease 0s;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-#search-field-container{
-    border: 2px solid clear;
-    width: 15rem;
-    border-radius: 15px;
-    overflow:hidden;}
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#search-field-container {
+  border: 2px solid clear;
+  width: 15rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
 
 main input {
   display: flex;
   width: 100%;
-  max-width: 300px;
+  max-width: 800px;
   padding: 10px 15px;
   border: none;
   border-radius: 15px;
-}
-
-.container {
-  border: 2px solid;
-  text-align: center;
-}
-
-.news {
-  color: white;
 }
