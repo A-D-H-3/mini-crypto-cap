@@ -1,4 +1,4 @@
-const data = {
+const coinData = {
         "status": {
             "timestamp": "2021-04-20T23:30:09.268Z",
             "error_code": 0,
