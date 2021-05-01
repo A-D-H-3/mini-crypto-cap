@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(/assets/btc.jpeg);
+  background-image: url(./assets/btc.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,10 +21,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
+  background-color: goldenrod;
 }
 
 li,
-a {
+a,
+button {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -35,24 +37,24 @@ a {
 
 .text-container h1 {
   text-align: center;
-  display: flex;
-  color: white;
-  border: 2px solid red;
 }
 
 button {
   border-radius: 50px;
   background-color: rgb(36, 151, 167);
-  padding: 12px 15px;
+  padding: 8px 15px;
   border: none;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-  color: white;
 }
 
 button:hover {
   background-color: rgba(36, 151, 167, 0.6);
   transition: all 0.3s ease 0s;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
 main {
@@ -71,17 +73,8 @@ main {
 main input {
   display: flex;
   width: 100%;
-  max-width: 300px;
+  max-width: 800px;
   padding: 10px 15px;
   border: none;
   border-radius: 15px;
-}
-
-.container {
-  border: 2px solid;
-  text-align: center;
-}
-
-.news {
-  color: white;
 }
