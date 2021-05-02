@@ -9,7 +9,6 @@ const renderError = () => {
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-  // console.log(data);
   const searchForm = document.getElementById("searchCrypto");
   const searchField = document.getElementById("search-field");
 
@@ -19,18 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch(`https://api.coingecko.com/api/v3/coins/${lower}`)
       .then((response) => response.json())
       .then((coin) => {
-        // const coinData = coin.data;
-        // const found = coinData.find((element) => element.name === "Bitcoin");
         console.log(coin.market_data.current_price.usd);
         renderCrypto(coin);
       })
       .catch(() => {
         renderError();
-        console.log("wrong!");
       });
-
-    console.log(searchField.value);
   });
-  // let content = document.getElementById("content");
-  // content.innerHTML =
 });
