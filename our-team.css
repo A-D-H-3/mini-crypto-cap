@@ -9,9 +9,52 @@ p {
 
 .header {
   background-color: skyblue;
-  height: 100px;
-  text-align: center;
-  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+body {
+  background-image: url(./assets/btc.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: goldenrod;
+}
+
+button {
+  border-radius: 50px;
+  background-color: rgb(36, 151, 167);
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .crip-flexbox {
