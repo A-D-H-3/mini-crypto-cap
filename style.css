@@ -37,6 +37,7 @@ button {
 
 .text-container h1 {
   text-align: center;
+  color: rgb(36, 151, 167);
 }
 
 button {
@@ -82,9 +83,13 @@ main input {
 .btn-primary {
   width: 100%;
   padding: 0;
+  background-color: rgb(36, 151, 167);
+  border: none;
 }
 
 .card {
   background: rgba(255, 255, 255, 0);
+  border: none;
   color: white;
+  justify-content: center;
 }
