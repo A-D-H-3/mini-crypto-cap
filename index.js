@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(){
-    console.log(data);
+    // console.log(data);
 
 
-    const cryptoResults = document.getElementById("data-results");
+    // let cryptoResults = document.getElementById("data-results");
+    // cryptoResults.innerHTML = renderCoins(coinData)
     const searchForm = document.getElementById("search-field-container");
     const searchField = document.getElementById("search-field");
 
@@ -17,10 +18,20 @@ document.addEventListener("DOMContentLoaded", function(){
     {
       headers: {
         "X-CMC_PRO_API_KEY": "fcddb729-807f-41a8-ac05-f514a689c2f1",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
+        'Content-Type': 'application/x-www-form-urlencoded',
       },
     }
   )
     .then((response) => response.json())
     .then((data) => console.log(data));
 });
+
+// const renderCoins = coins => {
+//     let coinsHTML = coins.map (cryptoResults =>
+// return ''
+
+
+
+// }
+
+
