@@ -78,3 +78,13 @@ main input {
   border: none;
   border-radius: 15px;
 }
+
+.btn-primary {
+  width: 100%;
+  padding: 0;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0);
+  color: white;
+}

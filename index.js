@@ -1,11 +1,15 @@
 const renderCrypto = (coin) => {
-  const cryptoMarket = document.getElementById("cryptoMarket");
-  cryptoMarket.innerHTML = `<p>${coin.market_data.current_price.usd}</p>
-  <p>${coin.market_cap_rank}</p>`;
+  const cryptoCard = document.getElementById("card");
+  const cryptoName = coin.id;
+  const cryptoImage = coin.image.large;
+  cryptoCard.innerHTML = `<img src=${cryptoImage} class="card-img-top" alt="image of various cryptocurrencies" />
+  <p><a class="btn btn-primary" href="https://www.coingecko.com/en/coins/${cryptoName}" role="button" id="cryptoBtn">${cryptoName}</a></p>
+  <p>Current Price: ${coin.market_data.current_price.usd}</p>
+  <p>Market Cap Rank: ${coin.market_cap_rank}</p>`;
 };
 const renderError = () => {
-  const cryptoMarket = document.getElementById("cryptoMarket");
-  cryptoMarket.innerHTML = `<p><a href="https://www.coingecko.com/en">Please use valid Crypto ID!</a></p>`;
+  const cryptoCard = document.getElementById("card");
+  cryptoCard.innerHTML = `<p><a class="btn btn-primary" href="https://www.coingecko.com/en"role="button" id="cryptoBtn">Please use valid Crypto ID!</a></p>`;
 };
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -18,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch(`https://api.coingecko.com/api/v3/coins/${lower}`)
       .then((response) => response.json())
       .then((coin) => {
-        console.log(coin.market_data.current_price.usd);
         renderCrypto(coin);
       })
       .catch(() => {
