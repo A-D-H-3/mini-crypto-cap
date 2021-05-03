@@ -29,9 +29,3 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
-
-
-
-
-
-
