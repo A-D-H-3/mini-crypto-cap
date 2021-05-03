@@ -1,45 +1,144 @@
-h1,
-h2 {
-  font-family: Roboto, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  font-family: Open sans Condensed, sans-serif;
+a:visited{
+  color:white;
 }
 
-.header {
-  background-color: skyblue;
-  height: 100px;
-  text-align: center;
-  padding: 1px;
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+    height: 14vh;
+    padding:0 10%;
+    align-items: center;
+    text-transform: uppercase;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+    0 2px 2px rgba(0, 0, 0, 0.671),0 8px 8px rgba(0,0,0,0.11),
+    0 16px 16px rgba(0, 0, 0, 0.384),
+    0 32px 32px rgba(0,0,0,0.11),
+    0 64px 64px rgba(63, 63, 63, 0.356);
+ }
+
+nav{
+  flex: 1;
 }
 
-.crip-flexbox {
+.contact{
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.nav-links, .contact{
   display: flex;
 }
-
-.container div {
-  padding: 1%;
-  box-sizing: border-box;
+.nav-links li{
+  text-decoration: none;
 }
 
-.left-col,
-.right-col {
-  background-color: #f4f4f4;
-  width: 33%;
+.nav-links{
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+} 
+
+button {
+  border-radius: 50px;
+  background-color: rgb(36, 151, 167);
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
-.center-col {
-  background-color: pink;
-  width: 33%;
+button:hover {
+  background-color: rgba(36, 151, 167, 0.6);
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+height: 100vh;
+background-image: linear-gradient(rgba(95, 94, 94, 0.185), rgba(0, 0, 0, 0.918)), url(./assets/singlebtc.jpeg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+overflow-x: hidden;
+position: relative;
+font-family: "Montserrat", sans-serif; color: white;
+}
+
+button {
+  border-radius: 50px;
+  background-color: rgb(36, 151, 167);
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.profiles{  
+width: 90%;
+margin: auto;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  padding: 2% 3%;
+  border-radius: 40px;
+}
+
+#rueben{
+  flex-direction: row-reverse;
+  margin-top: -25vh;
+  margin-right: 8vh;
+}
+
+#kingsley{
+  margin-top: -20vh;
+}
+
+.imgcontainer{
+  border-radius: 50px;
+  overflow: hidden;
+  width: 35vh;
+}
+
+.imgcontainer img{
+  height: 100%;
+  width: 100%;
+}
+
+.txtcontainer{
+margin-left: 6vh;
+width: 50%;
+font-size: larger;
 }
 
 .footer {
   clear: both;
   font-family: Amatica SC, cursive;
-  background-color: skyblue;
+  background-color: goldenrod;
   text-align: center;
   height: 50px;
   padding-top: 10px;
   box-sizing: border-box;
-}
+} 

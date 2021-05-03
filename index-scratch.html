@@ -16,9 +16,9 @@
     <header>
       <navbar>
         <ul class="nav-links">
-          <li><a href="#">Home</li></a>
-          <li><a href="#">About</li></a>
-          <li><a href="#">News</li></a>
+          <li><a href="index-scratch.html">Home</a></li>
+          <li><a href="our-team.html">About</a></li>
+          <li><a href="https://www.coingecko.com/en/news">News</a></li>
         </ul>
       </navbar>
       <a href=""><button>Contact</button></a>
@@ -29,16 +29,19 @@
           <h1>Crypto Cap</h1>
         </div>
         <div id="search-field-container" class="col">
-          <input
-            type="text"
-            autocomplete="off"
-            id="search-field"
-            placeholder="Search coin..."
-          />
+          <form id="searchCrypto">
+            <input
+              type="text"
+              autocomplete="on"
+              id="search-field"
+              placeholder="Search coin..."
+            />
+            <button type="submit">Search</button>
+          </form>
         </div>
-        <div class="col-6 content">Display crypto data</div>
-        <script src="./index.js"></script>
       </div>
     </main>
+    <div class="card" id="card" style="width: 12rem"></div>
+    <script src="./index.js"></script>
   </body>
 </html>
