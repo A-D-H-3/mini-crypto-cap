@@ -118,13 +118,19 @@ margin: auto;
 
 .imgcontainer{
   border-radius: 50px;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 35vh;
 }
 
 .imgcontainer img{
   height: 100%;
+  border-radius: 50px;
   width: 100%;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.479),
+0 4px 2px rgba(0, 0, 0, 0.226),
+0 8px 4px rgba(0, 0, 0, 0.219),
+0 16px 8px rgba(0,0,0,0.09),
+0 32px 16px rgba(0,0,0,0.09) 
 }
 
 .txtcontainer{
