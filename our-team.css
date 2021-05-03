@@ -13,8 +13,8 @@ a:visited{
 header {
     display: flex;
     justify-content: space-between;
-    background-color: goldenrod;
-    height: 14vh;
+    background-color: rgb(160, 120, 20);
+    height: 10vh;
     padding:0 10%;
     align-items: center;
     text-transform: uppercase;
@@ -110,6 +110,7 @@ margin: auto;
   flex-direction: row-reverse;
   margin-top: -25vh;
   margin-right: 8vh;
+  margin-bottom: 8vh;
 }
 
 #kingsley{
@@ -118,13 +119,19 @@ margin: auto;
 
 .imgcontainer{
   border-radius: 50px;
-  overflow: hidden;
-  width: 35vh;
+  /* overflow: hidden; */
+  width: 11rem;
 }
 
 .imgcontainer img{
   height: 100%;
+  border-radius: 50px;
   width: 100%;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.479),
+0 4px 2px rgba(0, 0, 0, 0.226),
+0 8px 4px rgba(0, 0, 0, 0.219),
+0 16px 8px rgba(0,0,0,0.09),
+0 32px 16px rgba(0,0,0,0.09) 
 }
 
 .txtcontainer{
@@ -133,12 +140,35 @@ width: 50%;
 font-size: larger;
 }
 
-.footer {
-  clear: both;
-  font-family: Amatica SC, cursive;
-  background-color: goldenrod;
-  text-align: center;
-  height: 50px;
-  padding-top: 10px;
-  box-sizing: border-box;
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 120, 20);
+    height: 10vh;
+    padding:0 10%;
+    align-items: center;
 } 
+
+@media screen and (max-width:1000px){
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  #rueben{
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 8vh;
+    margin: auto;
+  }
+  #kingsley{
+    margin-top: 5vh;
+    padding-bottom: 3vh;
+    margin: auto;
+  }
+}
+@media screen and (max-width:630px){
+  .txtcontainer p{
+    font-size: smaller;
+  }
+}
