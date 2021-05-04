@@ -104,13 +104,18 @@ margin: auto;
   align-items: center;
   padding: 2% 3%;
   border-radius: 40px;
+  border: 1px solid red;
+}
+
+#avery .imgcontainer{
+  width: 28vh;
 }
 
 #rueben{
   flex-direction: row-reverse;
-  margin-top: -25vh;
-  margin-right: 8vh;
+  margin-top: -15vh;
   margin-bottom: 8vh;
+  padding-left: 5px;
 }
 
 #kingsley{
@@ -120,7 +125,7 @@ margin: auto;
 .imgcontainer{
   border-radius: 50px;
   /* overflow: hidden; */
-  width: 11rem;
+  width: 12rem;
 }
 
 .imgcontainer img{
