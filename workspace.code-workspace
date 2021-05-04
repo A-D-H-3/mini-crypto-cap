@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/complete-javascript-course-master"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "classproject"
+	}
+}

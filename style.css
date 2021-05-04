@@ -7,21 +7,28 @@
 }
 
 body {
-  background-image: url(./assets/btc.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
-  height: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(95, 94, 94, 0.185), rgba(0, 0, 0, 0.918)), url(./assets/btc.jpeg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+overflow-x: hidden;
+position: relative;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
-  background-color: goldenrod;
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: goldenrod;
+padding: .3em 7%;
+text-transform: uppercase;
+box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+0 2px 2px rgba(0, 0, 0, 0.671),0 8px 8px rgba(0,0,0,0.11),
+0 16px 16px rgba(0, 0, 0, 0.384),
+0 32px 32px rgba(0,0,0,0.11),
+0 64px 64px rgba(63, 63, 63, 0.356);
 }
 
 li,
@@ -33,10 +40,12 @@ button {
 
 .nav-links {
   list-style: none;
+  margin-top: 1rem;
 }
 
 .text-container h1 {
   text-align: center;
+  color: rgb(36, 151, 167);
 }
 
 button {
@@ -61,6 +70,7 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 100px;
+  margin: auto;
 }
 
 #search-field-container {
@@ -77,4 +87,30 @@ main input {
   padding: 10px 15px;
   border: none;
   border-radius: 15px;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.09),
+  0 4px 2px rgba(0,0,0,0.09),
+  0 8px 4px rgba(0,0,0,0.09),
+  0 16px 8px rgba(0,0,0,0.09),
+  0 32px 16px rgba(0,0,0,0.09);
 }
+
+.btn-primary {
+  width: 100%;
+  padding: 0;
+  background-color: rgb(36, 151, 167);
+  border: none;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  color: white;
+  justify-content: center;
+}
+
+/* @media screen and (max-width: 446px) {
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+} */
