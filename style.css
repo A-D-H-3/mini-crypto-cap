@@ -7,28 +7,29 @@
 }
 
 body {
-height: 100vh;
-background-image: linear-gradient(rgba(95, 94, 94, 0.185), rgba(0, 0, 0, 0.918)), url(./assets/btc.jpeg);
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-overflow-x: hidden;
-position: relative;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(95, 94, 94, 0.185),
+      rgba(0, 0, 0, 0.918)
+    ),
+    url(./assets/btc.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
 }
 
-
-header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: goldenrod;
-padding: .3em 7%;
-text-transform: uppercase;
-box-shadow: 0 1px 1px rgba(0,0,0,0.11),
-0 2px 2px rgba(0, 0, 0, 0.671),0 8px 8px rgba(0,0,0,0.11),
-0 16px 16px rgba(0, 0, 0, 0.384),
-0 32px 32px rgba(0,0,0,0.11),
-0 64px 64px rgba(63, 63, 63, 0.356);
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: goldenrod;
+  padding: 0.3em 7%;
+  text-transform: uppercase;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.671),
+    0 8px 8px rgba(0, 0, 0, 0.11), 0 16px 16px rgba(0, 0, 0, 0.384),
+    0 32px 32px rgba(0, 0, 0, 0.11), 0 64px 64px rgba(63, 63, 63, 0.356);
 }
 
 li,
@@ -87,11 +88,9 @@ main input {
   padding: 10px 15px;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 2px 1px rgba(0,0,0,0.09),
-  0 4px 2px rgba(0,0,0,0.09),
-  0 8px 4px rgba(0,0,0,0.09),
-  0 16px 8px rgba(0,0,0,0.09),
-  0 32px 16px rgba(0,0,0,0.09);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+    0 32px 16px rgba(0, 0, 0, 0.09);
 }
 
 .btn-primary {
@@ -99,13 +98,19 @@ main input {
   padding: 0;
   background-color: rgb(36, 151, 167);
   border: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgba(36, 151, 167, 0.6);
+  transition: all 0.3s ease 0s;
 }
 
 .card {
   background: rgba(255, 255, 255, 0);
   border: none;
   color: white;
-  justify-content: center;
 }
 
 /* @media screen and (max-width: 446px) {
