@@ -129,6 +129,13 @@ main input {
   border: none;
   color: white;
 }
+.cardwrapper{
+  display: flex;flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+
+}
 
 /* @media screen and (max-width: 446px) {
   header {
