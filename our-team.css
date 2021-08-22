@@ -6,46 +6,43 @@
   padding: 0;
 }
 
-a:visited{
-  color:white;
+a:visited {
+  color: white;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(160, 120, 20);
-    height: 10vh;
-    padding:0 10%;
-    align-items: center;
-    text-transform: uppercase;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.11),
-    0 2px 2px rgba(0, 0, 0, 0.671),0 8px 8px rgba(0,0,0,0.11),
-    0 16px 16px rgba(0, 0, 0, 0.384),
-    0 32px 32px rgba(0,0,0,0.11),
-    0 64px 64px rgba(63, 63, 63, 0.356);
- }
-
-nav{
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: goldenrod;
+  padding: 0.3em 7%;
+  text-transform: uppercase;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.671),
+    0 8px 8px rgba(0, 0, 0, 0.11), 0 16px 16px rgba(0, 0, 0, 0.384),
+    0 32px 32px rgba(0, 0, 0, 0.11), 0 64px 64px rgba(63, 63, 63, 0.356);
 }
 
-.contact{
+/* nav {
+  flex: 1;
+} */
+
+.contact {
   flex: 2;
   justify-content: flex-end;
 }
 
-.nav-links, .contact{
-  display: flex;
-}
-.nav-links li{
-  text-decoration: none;
-}
-
-.nav-links{
+.nav-links {
+  list-style: none;
+  margin-top: 1rem;
   justify-content: space-around;
   list-style: none;
   text-decoration: none;
-} 
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
 
 button {
   border-radius: 50px;
@@ -63,16 +60,20 @@ button:hover {
   font-family: "Montserrat", sans-serif;
 }
 
-
 body {
-height: 100vh;
-background-image: linear-gradient(rgba(95, 94, 94, 0.185), rgba(0, 0, 0, 0.918)), url(./assets/singlebtc.jpeg);
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-overflow-x: hidden;
-position: relative;
-font-family: "Montserrat", sans-serif; color: white;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(95, 94, 94, 0.185),
+      rgba(0, 0, 0, 0.918)
+    ),
+    url(./assets/singlebtc.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 button {
@@ -94,85 +95,83 @@ button {
   list-style: none;
 }
 
-.profiles{  
-width: 90%;
-margin: auto;
+.profiles {
+  width: 90%;
+  margin: auto;
 }
 
-.profile{
+.profile {
   display: flex;
   align-items: center;
   padding: 2% 3%;
   border-radius: 40px;
 }
 
-#avery .imgcontainer{
+#avery .imgcontainer {
   width: 28vh;
 }
 
-#rueben{
+#rueben {
   flex-direction: row-reverse;
   margin-top: -15vh;
   margin-bottom: 8vh;
   padding-left: 5px;
 }
 
-#kingsley{
+#kingsley {
   margin-top: -20vh;
 }
 
-.imgcontainer{
+.imgcontainer {
   border-radius: 50px;
   /* overflow: hidden; */
   width: 12rem;
 }
 
-.imgcontainer img{
+.imgcontainer img {
   height: 100%;
   border-radius: 50px;
   width: 100%;
   box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.479),
-0 4px 2px rgba(0, 0, 0, 0.226),
-0 8px 4px rgba(0, 0, 0, 0.219),
-0 16px 8px rgba(0,0,0,0.09),
-0 32px 16px rgba(0,0,0,0.09) 
+    0 4px 2px rgba(0, 0, 0, 0.226), 0 8px 4px rgba(0, 0, 0, 0.219),
+    0 16px 8px rgba(0, 0, 0, 0.09), 0 32px 16px rgba(0, 0, 0, 0.09);
 }
 
-.txtcontainer{
-margin-left: 6vh;
-width: 50%;
-font-size: larger;
+.txtcontainer {
+  margin-left: 6vh;
+  width: 50%;
+  font-size: larger;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(160, 120, 20);
-    height: 10vh;
-    padding:0 10%;
-    align-items: center;
-} 
+  display: flex;
+  justify-content: center;
+  background-color: rgb(160, 120, 20);
+  height: 10vh;
+  padding: 0 10%;
+  align-items: center;
+}
 
-@media screen and (max-width:1000px){
+@media screen and (max-width: 1000px) {
   .profile {
     flex-direction: column;
     justify-content: center;
     margin-top: 2vh;
   }
-  #rueben{
-    flex-direction:column;
+  #rueben {
+    flex-direction: column;
     justify-content: center;
     margin-left: 8vh;
     margin: auto;
   }
-  #kingsley{
+  #kingsley {
     margin-top: 5vh;
     padding-bottom: 3vh;
     margin: auto;
   }
 }
-@media screen and (max-width:630px){
-  .txtcontainer p{
+@media screen and (max-width: 630px) {
+  .txtcontainer p {
     font-size: smaller;
   }
 }
